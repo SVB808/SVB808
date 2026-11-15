@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="290" viewBox="0 0 1120 290" role="img" aria-labelledby="title desc">
+  <title id="title">Shrutha V Bhat — Software Engineer</title>
+  <desc id="desc">Backend systems, cloud storage, and applied AI. A navy header with teal geometric accents.</desc>
+  <defs>
+    <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101d30" />
+      <stop offset="1" stop-color="#07131e" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5eead4" />
+      <stop offset="1" stop-color="#60a5fa" />
+    </linearGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#8da3ba" opacity="0.14" />
+    </pattern>
+  </defs>
+  <rect width="1120" height="290" rx="16" fill="url(#surface)" />
+  <rect x="760" width="360" height="290" fill="url(#dots)" />
+  <rect x="42" y="42" width="34" height="4" rx="2" fill="url(#accent)" />
+  <text x="92" y="50" fill="#b9cbdc" font-family="Arial, Helvetica, sans-serif" font-size="16" letter-spacing="3">SVB808 / SOFTWARE ENGINEER</text>
+  <text x="42" y="133" fill="#f0f6fc" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700" letter-spacing="-1.8">Shrutha V Bhat</text>
+  <text x="45" y="181" fill="#bdcddd" font-family="Arial, Helvetica, sans-serif" font-size="24">Backend systems. Cloud storage. Applied AI.</text>
+  <text x="45" y="242" fill="#5eead4" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="600" letter-spacing="2">JAVA</text>
+  <circle cx="110" cy="237" r="2" fill="#5e7389" />
+  <text x="126" y="242" fill="#5eead4" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="600" letter-spacing="2">SPRING BOOT</text>
+  <circle cx="275" cy="237" r="2" fill="#5e7389" />
+  <text x="291" y="242" fill="#5eead4" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="600" letter-spacing="2">DEVELOPER TOOLS</text>
+  <g transform="translate(842 66)" fill="none" stroke-linejoin="round">
+    <path d="M0 51 96 0 192 51 96 102Z" stroke="#64dfcd" stroke-width="2" fill="#123142" />
+    <path d="M0 90 96 141 192 90" stroke="#4b8fa5" stroke-width="2" />
+    <path d="M0 129 96 180 192 129" stroke="#344e6b" stroke-width="2" />
+    <path d="M96 102V180M0 51V129M192 51V129" stroke="#2c5368" stroke-width="1.5" />
+    <circle cx="96" cy="51" r="12" fill="#5eead4" stroke="#5eead4" />
+    <circle cx="96" cy="51" r="4" fill="#10303d" stroke="#10303d" />
+  </g>
+</svg>
