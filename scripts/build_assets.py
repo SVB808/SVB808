@@ -34,7 +34,7 @@ hero = text(44, 49, 'SVB808  /  SOFTWARE ENGINEER', 15, MUTED, 600, 'letter-spac
 hero += text(40, 139, 'Shrutha V Bhat', 67, INK, 700, 'letter-spacing="-2"')
 hero += text(44, 190, 'Backend systems. Applied AI.', 28, '#d8e7f6')
 hero += text(44, 225, 'Java / Spring Boot · Cloud storage · Developer tools', 19, MUTED)
-hero += pill(44, 270, 135, 'PREVIOUSLY DELL') + pill(191, 270, 142, 'BENGALURU, INDIA')
+hero += pill(44, 270, 135, 'Dell') + pill(191, 270, 142, 'BENGALURU, INDIA')
 hero += pill(345, 270, 194, 'OPEN TO OPPORTUNITIES')
 hero += '<g opacity="0.38" stroke="#31526c" fill="none"><path d="M800 0V350M880 0V350M960 0V350M1040 0V350M770 60H1120M770 140H1120M770 220H1120M770 300H1120"/></g>'
 hero += '<g fill="none" stroke-linecap="round" stroke-width="2"><path d="M813 94H1020V175H844V259H1035" stroke="#34546d"/>'
@@ -44,7 +44,7 @@ for x,y,label in [(813,94,'SOURCE'),(1020,175,'VERIFY'),(844,259,'SHIP')]:
     hero += text(x+25 if x<1000 else x-25, y+6, label, 12, '#c2d4e8', 600,
                  'letter-spacing="1.8"'+(' text-anchor="end"' if x>=1000 else ''))
 hero += text(1068, 320, 'BUILD / VERIFY / SHIP', 11, '#738ba4', 500, 'text-anchor="end" letter-spacing="2"')
-static=svg(1120,350,'Shrutha V Bhat. Backend systems and applied AI. Previously Dell. Bengaluru, India.',hero)
+static=svg(1120,350,'Shrutha V Bhat. Backend systems and applied AI. Dell. Bengaluru, India.',hero)
 motion='<style>.signal{animation:travel 14s linear infinite}@keyframes travel{to{stroke-dashoffset:-640}}@media(prefers-reduced-motion:reduce){.signal{animation:none;stroke-dasharray:none;opacity:.35}}</style>'
 write('profile-banner.svg',static.replace('<defs>',motion+'<defs>',1))
 write('profile-banner-static.svg',static.replace('stroke-dasharray="45 595"','opacity="0.35"'))
@@ -52,10 +52,10 @@ mobile_hero=text(25,34,'SVB808 / SOFTWARE ENGINEER',12,MUTED,600,'letter-spacing
 mobile_hero+=text(23,102,'Shrutha V Bhat',43,INK,700,'letter-spacing="-1.5"')
 mobile_hero+=text(25,146,'Backend systems. Applied AI.',23,'#d8e7f6')
 mobile_hero+=text(25,180,'Java / Spring Boot · Cloud storage',16,MUTED)
-mobile_hero+=pill(25,213,135,'PREVIOUSLY DELL')+pill(173,213,142,'BENGALURU, INDIA')
+mobile_hero+=pill(25,213,135,'Dell')+pill(173,213,142,'BENGALURU, INDIA')
 mobile_hero+=text(25,286,'OPEN TO OPPORTUNITIES',12,TEAL,600,'letter-spacing="1.4"')
 mobile_hero+='<path d="M25 317H515" stroke="#34546d" stroke-width="2"/><path class="signal" d="M25 317H515" stroke="#5eead4" stroke-width="2" stroke-dasharray="45 595"/>'
-mobile_static=svg(540,340,'Shrutha V Bhat. Backend systems and applied AI. Previously Dell. Bengaluru, India.',mobile_hero)
+mobile_static=svg(540,340,'Shrutha V Bhat. Backend systems and applied AI. Dell. Bengaluru, India.',mobile_hero)
 write('profile-banner-mobile.svg',mobile_static.replace('<defs>',motion+'<defs>',1))
 write('profile-banner-mobile-static.svg',mobile_static.replace('stroke-dasharray="45 595"','opacity="0.35"'))
 
