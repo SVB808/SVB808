@@ -13,6 +13,8 @@
 
 <p align="center">I build Java/Spring services, cloud storage integrations, and AI tools for developers.<br />My work spans backend engineering, automation, and applications people use.</p>
 
+<p align="center"><strong>Engineering toolkit</strong></p>
+
 <p align="center">
   <img src="assets/tech/java.svg" alt="Java" title="Java" width="80" height="80" />
   <img src="assets/tech/spring.svg" alt="Spring" title="Spring Boot" width="80" height="80" />
@@ -24,7 +26,23 @@
   <img src="assets/tech/git.svg" alt="Git" title="Git" width="80" height="80" />
 </p>
 
+<p align="center"><strong>Generative AI &amp; agents</strong></p>
+
+<p align="center">
+  <img src="assets/tech/spring-ai.svg" alt="Spring AI" title="Spring AI" width="80" height="80" />
+  <img src="assets/tech/langchain4j.svg" alt="LangChain4j" title="LangChain4j" width="80" height="80" />
+  <img src="assets/tech/langgraph.svg" alt="LangGraph" title="LangGraph" width="80" height="80" />
+  <img src="assets/tech/ollama.svg" alt="Ollama" title="Ollama" width="80" height="80" />
+  <img src="assets/tech/openai-api.svg" alt="OpenAI API" title="OpenAI API" width="80" height="80" />
+  <img src="assets/tech/rag.svg" alt="RAG" title="Retrieval-augmented generation" width="80" height="80" />
+  <img src="assets/tech/mcp.svg" alt="MCP" title="Model Context Protocol" width="80" height="80" />
+</p>
+
 ## Selected work
+
+<table width="100%">
+<tr><td>
+<h3>01 · ChangeGuard</h3>
 
 <a href="https://github.com/SVB808/changeguard">
   <picture>
@@ -33,10 +51,26 @@
   </picture>
 </a>
 
-Trace Spring API changes to downstream consumers, then plan verification against the exact analyzed commit.
+<p>Trace Spring API changes to downstream consumers, then plan verification against the exact analyzed commit.</p>
 
-**Python · Java · LangGraph · Ollama**  
-[Code](https://github.com/SVB808/changeguard) · [Reproduce the demo](https://github.com/SVB808/changeguard/blob/main/docs/demo.md) · [Design decisions](https://github.com/SVB808/changeguard/tree/main/docs/decisions)
+<p><strong>TECH STACK</strong></p>
+<p>
+  <img src="assets/stack/python.svg" alt="Python" width="94" height="32" />
+  <img src="assets/stack/java.svg" alt="Java" width="78" height="32" />
+  <img src="assets/stack/langgraph.svg" alt="LangGraph" width="126" height="32" />
+  <img src="assets/stack/ollama.svg" alt="Ollama" width="98" height="32" />
+</p>
+
+<hr />
+<p><strong>Explore:</strong> <a href="https://github.com/SVB808/changeguard">Code</a> · <a href="https://github.com/SVB808/changeguard/blob/main/docs/demo.md">Reproduce the demo</a> · <a href="https://github.com/SVB808/changeguard/tree/main/docs/decisions">Design decisions</a></p>
+</td></tr>
+</table>
+
+<br />
+
+<table width="100%">
+<tr><td>
+<h3>02 · API workflow benchmark</h3>
 
 <a href="https://github.com/SVB808/openai-decisions-api-benchmark">
   <picture>
@@ -45,10 +79,25 @@ Trace Spring API changes to downstream consumers, then plan verification against
   </picture>
 </a>
 
-An exploratory comparison of classification accuracy, latency, and error patterns, with published data and limitations.
+<p>An exploratory comparison of classification accuracy, latency, and error patterns, with published data and limitations.</p>
 
-**Python · API evaluation**  
-[Code](https://github.com/SVB808/openai-decisions-api-benchmark) · [Results and methodology](https://github.com/SVB808/openai-decisions-api-benchmark/blob/main/extended_report.md) · [Raw measurements](https://github.com/SVB808/openai-decisions-api-benchmark/blob/main/extended_results.csv)
+<p><strong>TECH STACK</strong></p>
+<p>
+  <img src="assets/stack/python.svg" alt="Python" width="94" height="32" />
+  <img src="assets/stack/openai-api.svg" alt="OpenAI API" width="130" height="32" />
+  <img src="assets/stack/api-evaluation.svg" alt="API evaluation" width="150" height="32" />
+</p>
+
+<hr />
+<p><strong>Explore:</strong> <a href="https://github.com/SVB808/openai-decisions-api-benchmark">Code</a> · <a href="https://github.com/SVB808/openai-decisions-api-benchmark/blob/main/extended_report.md">Results and methodology</a> · <a href="https://github.com/SVB808/openai-decisions-api-benchmark/blob/main/extended_results.csv">Raw measurements</a></p>
+</td></tr>
+</table>
+
+<br />
+
+<table width="100%">
+<tr><td>
+<h3>03 · Desktop focus companion</h3>
 
 <a href="https://github.com/SVB808/flowpet-desktop">
   <picture>
@@ -57,10 +106,24 @@ An exploratory comparison of classification accuracy, latency, and error pattern
   </picture>
 </a>
 
-A Windows desktop companion that combines activity context, local history, and optional AI to help users return to their work.
+<p>A Windows desktop companion that combines activity context, local history, and optional AI to help users return to their work.</p>
 
-**Rust · Tauri · React · TypeScript · SQLite**  
-[Code](https://github.com/SVB808/flowpet-desktop) · [Architecture](https://github.com/SVB808/flowpet-desktop/blob/main/docs/architecture.md) · [Development roadmap](https://github.com/SVB808/flowpet-desktop/blob/main/docs/roadmap.md)
+<p><strong>TECH STACK</strong></p>
+<p>
+  <img src="assets/stack/rust.svg" alt="Rust" width="78" height="32" />
+  <img src="assets/stack/tauri.svg" alt="Tauri" width="82" height="32" />
+  <img src="assets/stack/react.svg" alt="React" width="86" height="32" />
+  <img src="assets/stack/typescript.svg" alt="TypeScript" width="124" height="32" />
+  <img src="assets/stack/sqlite.svg" alt="SQLite" width="94" height="32" />
+</p>
+<p><strong>Optional AI:</strong> Ollama · OpenAI-compatible endpoints</p>
+
+<hr />
+<p><strong>Explore:</strong> <a href="https://github.com/SVB808/flowpet-desktop">Code</a> · <a href="https://github.com/SVB808/flowpet-desktop/blob/main/docs/architecture.md">Architecture</a> · <a href="https://github.com/SVB808/flowpet-desktop/blob/main/docs/roadmap.md">Development roadmap</a></p>
+</td></tr>
+</table>
+
+<br />
 
 ## Open-source activity
 
@@ -73,7 +136,7 @@ A Windows desktop companion that combines activity context, local history, and o
 
 <details>
   <summary>More of my toolkit</summary>
-  <p>LangChain4j · Spring AI · RAG · MCP · AWS S3/IAM/STS SDKs · Angular · JUnit · Mockito · Jenkins · Gradle · Maven</p>
+  <p>AWS S3/IAM/STS SDKs · Angular · JUnit · Mockito · Jenkins · Gradle · Maven</p>
 </details>
 
 ---

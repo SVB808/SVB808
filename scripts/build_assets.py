@@ -71,6 +71,39 @@ for name,label in labels.items():
     icon='<rect x=".5" y=".5" width="85" height="85" rx="12" fill="#101f33" stroke="#263b54"/>'+source+text(43,73,label,11.5,'#d8e7f6',500,'text-anchor="middle"')
     write(f'tech/{name}.svg',svg(86,86,label,icon))
 
+# Original symbolic glyphs, with explicit tool labels, for the GenAI toolkit.
+# These are illustrations rather than third-party brand marks.
+VIOLET = '#c4b5fd'
+ai_glyphs = {
+    'spring-ai': ('Spring AI', '<path d="M29 44c-3-15 10-22 29-19 3 19-4 30-20 27M28 55l25-25M38 45l-1-11M43 40l11 1"/><path d="m62 39 2 5 5 2-5 2-2 5-2-5-5-2 5-2z"/>'),
+    'langchain4j': ('LangChain4j', '<rect x="23" y="24" width="27" height="17" rx="8" transform="rotate(-35 36.5 32.5)"/><rect x="36" y="34" width="27" height="17" rx="8" transform="rotate(-35 49.5 42.5)"/><path d="m38 38 10-7"/>'),
+    'langgraph': ('LangGraph', '<path d="M29 25h27M29 25v26h27M56 25v26M29 25l27 26"/><circle cx="29" cy="25" r="5" fill="#182438"/><circle cx="56" cy="25" r="5" fill="#182438"/><circle cx="29" cy="51" r="5" fill="#182438"/><circle cx="56" cy="51" r="5" fill="#182438"/>'),
+    'ollama': ('Ollama', '<path d="M31 32c-6-4-8-16-4-17 4-2 10 8 10 13M49 28c0-13 5-17 8-13 4 5 1 14-2 18M32 31c6-5 17-6 23 0 10 11 5 24-12 24S22 41 32 31z"/><path d="M35 39h1m13 0h1M40 46q3 3 6 0"/>'),
+    'openai-api': ('OpenAI API', '<rect x="22" y="22" width="42" height="34" rx="7"/><path d="m31 34 7 5-7 5M44 44h11M32 17v5m22-5v5M32 56v5m22-5v5"/>'),
+    'rag': ('RAG', '<path d="M27 21h22l9 9v25H27zM49 21v10h9M34 36h13M34 43h9"/><circle cx="53" cy="48" r="9" fill="#182438"/><path d="m60 55 6 6"/>'),
+    'mcp': ('MCP', '<path d="M29 34h12M45 40v12M34 52h11M53 28h9M61 28v17M61 45h-8"/><rect x="22" y="27" width="13" height="14" rx="4"/><rect x="40" y="20" width="14" height="16" rx="4"/><rect x="40" y="45" width="14" height="16" rx="4"/>'),
+}
+for name, (label, glyph) in ai_glyphs.items():
+    frame='<rect x=".5" y=".5" width="85" height="85" rx="12" fill="#101f33" stroke="#514b78"/>'
+    drawing=f'<g fill="none" stroke="{VIOLET}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">{glyph}</g>'
+    write(f'tech/{name}.svg',svg(86,86,label,frame+drawing+text(43,73,label,11.5,'#e0dafa',500,'text-anchor="middle"')))
+
+# Local, wrapping badges keep each project's technology stack prominent.
+badges = {
+    'python': ('Python', 94, BLUE), 'java': ('Java', 78, BLUE),
+    'langgraph': ('LangGraph', 126, VIOLET), 'ollama': ('Ollama', 98, VIOLET),
+    'openai-api': ('OpenAI API', 130, VIOLET),
+    'api-evaluation': ('API evaluation', 150, TEAL),
+    'rust': ('Rust', 78, BLUE), 'tauri': ('Tauri', 82, TEAL),
+    'react': ('React', 86, BLUE), 'typescript': ('TypeScript', 124, BLUE),
+    'sqlite': ('SQLite', 94, TEAL),
+}
+for name,(label,width,color) in badges.items():
+    body=f'<rect x=".5" y=".5" width="{width-1}" height="31" rx="7" fill="#142338" stroke="{color}" stroke-opacity=".65"/>'
+    body+=f'<circle cx="15" cy="16" r="3" fill="{color}"/>'
+    body+=text(27,21,label,14,'#f0f6ff',600)
+    write(f'stack/{name}.svg',svg(width,32,label,body))
+
 def contact(name,label,width,icon):
     body=icon+text(44,23,label,13,INK,600)
     write(f'contact/{name}.svg',svg(width,36,label,body))
