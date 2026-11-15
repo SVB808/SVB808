@@ -2,7 +2,7 @@
   <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="assets/profile-banner-mobile-static.svg" />
   <source media="(max-width: 600px)" srcset="assets/profile-banner-mobile.svg" />
   <source media="(prefers-reduced-motion: reduce)" srcset="assets/profile-banner-static.svg" />
-  <img src="assets/profile-banner.svg" alt="Shrutha V Bhat — backend systems and applied AI. Previously Dell. Bengaluru, India." width="100%" />
+  <img src="assets/profile-banner.svg" alt="Shrutha V Bhat — backend systems and applied AI. Bengaluru, India." width="100%" />
 </picture>
 
 <p align="center">
@@ -12,6 +12,18 @@
 </p>
 
 <p align="center">I build Java/Spring services, cloud storage integrations, and AI tools for developers.<br />My work spans backend engineering, automation, and applications people use.</p>
+
+<p align="center"><strong>Generative AI &amp; agents</strong></p>
+
+<p align="center">
+  <img src="assets/tech/spring-ai.svg" alt="Spring AI" title="Spring AI" width="80" height="80" />
+  <img src="assets/tech/langchain4j.svg" alt="LangChain4j" title="LangChain4j" width="80" height="80" />
+  <img src="assets/tech/langgraph.svg" alt="LangGraph" title="LangGraph" width="80" height="80" />
+  <img src="assets/tech/ollama.svg" alt="Ollama" title="Ollama" width="80" height="80" />
+  <img src="assets/tech/openai-api.svg" alt="OpenAI API" title="OpenAI API" width="80" height="80" />
+  <img src="assets/tech/rag.svg" alt="RAG" title="Retrieval-augmented generation" width="80" height="80" />
+  <img src="assets/tech/mcp.svg" alt="MCP" title="Model Context Protocol" width="80" height="80" />
+</p>
 
 <p align="center"><strong>Engineering toolkit</strong></p>
 
@@ -24,18 +36,6 @@
   <img src="assets/tech/react.svg" alt="React" title="React" width="80" height="80" />
   <img src="assets/tech/typescript.svg" alt="TypeScript" title="TypeScript" width="80" height="80" />
   <img src="assets/tech/git.svg" alt="Git" title="Git" width="80" height="80" />
-</p>
-
-<p align="center"><strong>Generative AI &amp; agents</strong></p>
-
-<p align="center">
-  <img src="assets/tech/spring-ai.svg" alt="Spring AI" title="Spring AI" width="80" height="80" />
-  <img src="assets/tech/langchain4j.svg" alt="LangChain4j" title="LangChain4j" width="80" height="80" />
-  <img src="assets/tech/langgraph.svg" alt="LangGraph" title="LangGraph" width="80" height="80" />
-  <img src="assets/tech/ollama.svg" alt="Ollama" title="Ollama" width="80" height="80" />
-  <img src="assets/tech/openai-api.svg" alt="OpenAI API" title="OpenAI API" width="80" height="80" />
-  <img src="assets/tech/rag.svg" alt="RAG" title="Retrieval-augmented generation" width="80" height="80" />
-  <img src="assets/tech/mcp.svg" alt="MCP" title="Model Context Protocol" width="80" height="80" />
 </p>
 
 ## Selected work
